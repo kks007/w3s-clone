@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    height: 55px;
+    margin: auto;
+    width: 55px;
+    padding:20px ;
+}
+
+.nav{
+    height: 85px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.left{
+    height: 85px;
+    width: 80%;
+    display: inline-flex;
+
+}
+
+.right{
+    height: 85px;
+    width: 30%;
+    display: inline-flex;
+    align-items: inherit;
+    padding: 20px 50px 20px 50px;
+    
+}
+
+.rbutton{
+    border-radius: 20px;
+    font-size: 20px;
+    width: 160px;
+    height: 40px;
+    border: none;
+    padding: 0px 10px 0px 10px;
+    cursor: pointer;
+    
+}
+
+.rbutton:hover{
+    background-color: rgb(74, 177, 74);
+}
+
+.lbutton{
+    font-size: 20px;
+    border:none;
+    width: 150px;
+    height: 100%;
+    background-color: white;
+    padding-left: 10px;
+    cursor: pointer;
+    
+}
+
+.lbutton:hover{
+    background-color: rgb(90, 182, 90);
+}
+.one{
+    background-color: pink;
+}
+
+.two{
+    background-color: white;
+}
+
+.three{
+    background-color: rgb(90, 182, 90);
+}
+
