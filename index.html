@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>W3Schools Online Web Tutorials</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
@@ -14,14 +14,34 @@
             <div class="left">
                 <div><a href="index.html"><img class="logo" src="W3Schools_2020.png" alt="W3S logo"></a></div>
                 <div class="dropdown"> 
-                    <button class="lbutton dropbtn1" >Tutorials▾</button> 
-                    <div class="dropdown-content1">
-                        
+                    <button onclick="functionOne()" class="lbutton" >Tutorials▾</button> 
+                    <div id = "myDropdown" class="dropdown-content">
+                        <a href="#">HTML and CSS</a>
+                        <a href="#">JavaScript</a>
+                        <a href="#">Data Analytics</a>
+                        <a href="#">Programming</a>
+                        <a href="#">Server Side</a>
+                        <a href="#">XML Tutorials</a>
+                        <a href="#">Web Building</a>
                     </div>
                 </div>
-                <button class="lbutton">References▾</button>
-                <button class="lbutton">Exercises▾</button>
-                <button class="lbutton">Videos</button>
+
+                <div class="dropdown1">
+                    <button onclick="functionTwo()" class="lbutton">References▾</button>
+                    <div id = "myDropdown1" class="dropdown-content1">
+                        <a href="#">HTML</a>
+                        <a href="#">JavaScript</a>
+                        <a href="#">CSS</a>
+                        <a href="#">Programming</a>
+                        <a href="#">Server Side</a>
+                        <a href="#">XML</a>
+                        <a href="#">Character Sets</a>
+                    </div>
+                </div>
+
+                    <button class="lbutton">Exercises▾</button>
+                    <button class="lbutton">Videos</button>
+                
             </div>
 
             <div class="right">
@@ -29,9 +49,13 @@
                 <button class="rbutton two">Paid courses</button>
                 <button class="rbutton three">Login</button>
             </div>
-           
         </nav>
     </header>
+
+    <section>
+        <div>
+        </div>
+    </section>
 </body>
 </html>
 
