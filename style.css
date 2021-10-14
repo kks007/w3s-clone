@@ -88,7 +88,7 @@
     box-shadow: 0px 8px 16px 0px rgba(57, 57, 57, 0.2);
     z-index: 1;
   }
-  
+    
   .dropdown-content a {
     color:white;
     padding: 12px 16px;
@@ -97,28 +97,104 @@
   }
 
   .dropdown-content a:hover {background-color: rgb(89, 101, 100)}
-
   .show {display:block;}
 
-  .dropdown1{
-    position: relative;
-    display: inline-block;
+.html{
+    display: flex;
+    width: 100%;
+    height: 75vh;
+    background-color: #3f3f45;
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
-.dropdown-content1 {
-    display: none;
-    position: absolute;
-    width: 100%;
-    background-color: #0c0b0b;
-    box-shadow: 0px 8px 16px 0px rgba(57, 57, 57, 0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content1 a {
-    color:white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
+.html-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px 20px 0px;
+    text-align: center;
+    align-items: center;
+}
 
-  .dropdown-content1 a:hover {background-color: rgb(89, 101, 100)}
+.html-right{
+    width: 50%;
+    padding: 55px 50px 0px 0px;
+    text-align: center;
+}
+
+.secbtn{
+    border-radius: 20px;
+    font-size: 18px;
+    width: 170px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.button-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.css{
+    display: flex;
+    width: 100%;
+    height: 75vh;
+    background-color: #abdee9;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.css-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px 20px 0px;
+    text-align: center;
+    align-items: center;
+}
+
+.css-right{
+    width: 50%;
+    padding: 55px 50px 0px 0px;
+    text-align: center;
+}
+
+.js{
+    display: flex;
+    width: 100%;
+    height: 75vh;
+    background-color: #f2f79b;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.js-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px 20px 0px;
+    text-align: center;
+    align-items: center;
+}
+
+.js-right{
+    width: 50%;
+    padding: 55px 50px 0px 0px;
+    text-align: center;
+}
