@@ -4,31 +4,34 @@
 }
 
 .logo{
-    height: 55px;
+    height: 40px;
     margin: auto;
-    width: 55px;
+    width: 43px;
     padding:20px ;
 }
 
 .nav{
-    height: 85px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     display: inline-flex;
     width: 100%;
+    
 }
 
 .left{
-    height: 85px;
     width: 80%;
     display: inline-flex;
+    height: fit-content;
 
 }
 
 .right{
-    height: 85px;
     width: 30%;
     display: inline-flex;
     align-items: inherit;
     padding: 20px 20px 20px 50px;
+    height: fit-content;
     
 }
 
